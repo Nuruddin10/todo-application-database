@@ -1,0 +1,2 @@
+CREATE http://localhost:3000/table/
+Content-Type: application/json 
