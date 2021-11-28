@@ -1,2 +1,14 @@
-CREATE http://localhost:3000/table/
+POST http://localhost:3000/table/update1/
+Content-Type: application/json 
+
+{
+    "id": 2,
+    "todo": "Learn Node JS",
+    "priority": "HIGH",
+    "status": "IN PROGRESS"
+}
+
+### 
+
+GET http://localhost:3000/todoTable/
 Content-Type: application/json 
